@@ -198,3 +198,4 @@ summary;
 
 const pagesRange = pages > 1000 ? "over a thousand" : "less than a thousand";
 pagesRange;
+console.log(`The book has ${pagesRange} pages.`);
