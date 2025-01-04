@@ -181,7 +181,11 @@ newGenres;
 
 const updatedBook = {
   ...book,
+
+  // Add new properties
   moviePublicationDate: "2022-01-01",
+
+  // Overwrtie existing properties
   pages: 300,
   genres: newGenres,
 };
