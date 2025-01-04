@@ -156,6 +156,9 @@ const book = getBook(2);
 // const title = book.title;
 // const author = book.author;
 
-const { title, author } = book;
+// const { title, author } = book;
 
-console.log(author, title);
+const { title, author, pages, publicationDate, genres, hasMovieAdaptation } =
+  book;
+
+console.log(author, title, genres, pages, publicationDate, hasMovieAdaptation);
