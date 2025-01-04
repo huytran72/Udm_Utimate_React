@@ -144,3 +144,5 @@ function getBook(id) {
 }
 
 // Destrucutring
+
+const books = getBooks();
