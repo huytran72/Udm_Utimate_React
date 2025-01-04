@@ -169,5 +169,17 @@ console.log(author, title, genres, pages, publicationDate, hasMovieAdaptation);
 const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
 console.log(primaryGenre, secondaryGenre, otherGenres);
 
-const newGenres = ["fantasy", "adventure", "fiction", "novels", "literature"];
+const newGenres = [
+  ...genres,
+  "fantasy",
+  "adventure",
+  "fiction",
+  "novels",
+  "literature",
+];
 newGenres;
+
+const updatedBook = {
+  ...book,
+  genres: newGenres,
+};
