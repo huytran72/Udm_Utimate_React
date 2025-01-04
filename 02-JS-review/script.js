@@ -170,3 +170,4 @@ const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
 console.log(primaryGenre, secondaryGenre, otherGenres);
 
 const newGenres = ["fantasy", "adventure", "fiction", "novels", "literature"];
+newGenres;
