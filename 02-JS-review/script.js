@@ -190,3 +190,6 @@ const updatedBook = {
   genres: newGenres,
 };
 updatedBook;
+
+const summary = `${title} is a book`;
+summary;
