@@ -162,3 +162,5 @@ const { title, author, pages, publicationDate, genres, hasMovieAdaptation } =
   book;
 
 console.log(author, title, genres, pages, publicationDate, hasMovieAdaptation);
+
+const primaryGenre = genres[0];
