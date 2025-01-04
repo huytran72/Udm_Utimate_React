@@ -150,3 +150,7 @@ books.forEach((book) => {
   const { title, author, genres } = book;
   console.log(title, author, genres);
 });
+
+const book = getBook(1);
+
+const title = book.title;
