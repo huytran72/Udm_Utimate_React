@@ -196,4 +196,4 @@ const summary = `${title} is a book by ${author} with ${pages} pages. It was pub
 )}.`;
 summary;
 
-pages > 1000 ? "Long book" : "Short book";
+pages > 1000 ? "over a thousand" : "less than a thousand";
