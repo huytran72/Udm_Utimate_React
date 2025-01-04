@@ -183,3 +183,4 @@ const updatedBook = {
   ...book,
   genres: newGenres,
 };
+updatedBook;
