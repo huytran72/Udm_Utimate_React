@@ -146,3 +146,7 @@ function getBook(id) {
 // Destrucutring
 
 const books = getBooks();
+books.forEach((book) => {
+  const { title, author, genres } = book;
+  console.log(title, author, genres);
+});
