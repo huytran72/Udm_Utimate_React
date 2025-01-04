@@ -191,5 +191,7 @@ const updatedBook = {
 };
 updatedBook;
 
-const summary = `${title} is a book ${2 + 4}`;
+const summary = `${title} is a book by ${author} with ${pages} pages. It was published on ${publicationDate}. It belongs to the genres ${genres.join(
+  ", "
+)}.`;
 summary;
