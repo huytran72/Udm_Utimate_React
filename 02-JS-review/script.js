@@ -181,6 +181,8 @@ newGenres;
 
 const updatedBook = {
   ...book,
+  moviePublicationDate: "2022-01-01",
+  pages: 300,
   genres: newGenres,
 };
 updatedBook;
