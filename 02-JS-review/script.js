@@ -191,5 +191,5 @@ const updatedBook = {
 };
 updatedBook;
 
-const summary = `${title} is a book`;
+const summary = `${title} is a book ${2 + 4}`;
 summary;
