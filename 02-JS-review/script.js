@@ -154,3 +154,6 @@ books.forEach((book) => {
 const book = getBook(1);
 
 const title = book.title;
+const author = book.author;
+
+console.log(author, title);
