@@ -164,3 +164,5 @@ const { title, author, pages, publicationDate, genres, hasMovieAdaptation } =
 console.log(author, title, genres, pages, publicationDate, hasMovieAdaptation);
 
 const primaryGenre = genres[0];
+const secondaryGenre = genres[1];
+console.log(primaryGenre, secondaryGenre);
