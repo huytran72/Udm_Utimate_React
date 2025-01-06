@@ -206,3 +206,5 @@ function getYear(str) {
 
 (str) => str.split("-")[0];
 console.log(getYear(publicationDate));
+
+console.log(true && "Some String");
