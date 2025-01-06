@@ -203,4 +203,6 @@ console.log(`The book has ${pagesRange} pages.`);
 function getYear(str) {
   return str.split("-")[0];
 }
+
+(str) => str.split("-")[0];
 console.log(getYear(publicationDate));
