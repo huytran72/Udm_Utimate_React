@@ -226,3 +226,5 @@ console.log(book.translations.korean || "No translation available");
 const spanishTranslation =
   book.translations.spanish || "No translation available";
 console.log(spanishTranslation);
+
+console.log(book.reviews.librarything.rating || "No rating available");
