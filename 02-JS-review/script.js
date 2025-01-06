@@ -209,3 +209,4 @@ console.log(getYear(publicationDate));
 
 console.log(true && "Some String");
 console.log(false && "Some String");
+console.log(true || "Some String");
