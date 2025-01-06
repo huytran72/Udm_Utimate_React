@@ -215,3 +215,5 @@ console.log(hasMovieAdaptation && "This book has a movie adaptation");
 // falsy values
 console.log("kenny" && "Some String");
 console.log("" && "Some String");
+
+console.log(true || "Some String");
