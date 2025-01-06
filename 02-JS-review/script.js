@@ -218,3 +218,5 @@ console.log("" && "Some String");
 
 console.log(true || "Some String");
 console.log(false || "Some String");
+
+console.log(book.translations.spanish || "No translation available");
