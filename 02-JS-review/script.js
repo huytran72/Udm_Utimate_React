@@ -222,3 +222,6 @@ console.log(false || "Some String");
 console.log(book.translations.spanish || "No translation available");
 
 console.log(book.translations.korean || "No translation available");
+
+const spanishTranslation =
+  book.translations.spanish || "No translation available";
