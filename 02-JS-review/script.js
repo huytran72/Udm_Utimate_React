@@ -217,3 +217,4 @@ console.log("kenny" && "Some String");
 console.log("" && "Some String");
 
 console.log(true || "Some String");
+console.log(false || "Some String");
