@@ -236,6 +236,9 @@ const count = book.reviews.librarything.reviewsCount ?? "no data";
 count;
 
 function getTotalReiewCount(book) {
+  const goodreadsCount = book.reviews.goodreads.ratingsCount;
+  const librarything = book.reviews.librarything.ratingsCount;
+
   return (
     book.reviews.goodreads.ratingsCount +
     (book.reviews.librarything.ratingsCount || 0)
