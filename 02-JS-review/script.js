@@ -240,8 +240,7 @@ function getTotalReiewCount(book) {
   const librarything = book.reviews.librarything.ratingsCount;
 
   return (
-    book.reviews.goodreads.ratingsCount +
-    (book.reviews.librarything.ratingsCount || 0)
+    book.reviews.goodreads.ratingsCount + book.reviews.librarything.ratingsCount
   );
 }
 console.log(getTotalReiewCount(book));
