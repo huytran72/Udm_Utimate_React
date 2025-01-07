@@ -245,4 +245,4 @@ function getTotalReiewCount(book) {
 }
 console.log(getTotalReiewCount(book));
 
-const books = getBooks();
+const books2 = getBooks();
