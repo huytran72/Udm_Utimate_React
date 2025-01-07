@@ -230,3 +230,4 @@ console.log(spanishTranslation);
 console.log(book.reviews.librarything.rating || "No rating available");
 const countWrong = book.reviews.librarything.reviewsCount || "no data";
 console.log(countWrong);
+countWrong;
