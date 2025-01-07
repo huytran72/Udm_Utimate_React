@@ -246,3 +246,6 @@ function getTotalReiewCount(book) {
 console.log(getTotalReiewCount(book));
 
 const books2 = getBooks();
+
+const x = [1, 2, 3, 4, 5].map((el) => el * 2);
+console.log(x);
