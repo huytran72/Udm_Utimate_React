@@ -244,4 +244,4 @@ function getTotalReiewCount(book) {
     (book.reviews.librarything.ratingsCount || 0)
   );
 }
-getTotalReiewCount(book);
+console.log(getTotalReiewCount(book));
