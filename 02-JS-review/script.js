@@ -252,3 +252,8 @@ console.log(x);
 
 const titles = books2.map((book) => book.title);
 titles;
+
+const essentialData = books2.map((book) => {
+  const { title, author, genres, pages } = book;
+  return { title, author, genres, pages };
+}
