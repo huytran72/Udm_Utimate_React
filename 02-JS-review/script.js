@@ -233,3 +233,4 @@ console.log(countWrong);
 countWrong;
 
 const count = book.reviews.librarything.reviewsCount ?? "no data";
+count;
