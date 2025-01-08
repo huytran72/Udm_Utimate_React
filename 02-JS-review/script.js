@@ -307,3 +307,7 @@ const booksAfterUpdate = booksAfterDelete.map((book) => {
   return book;
 });
 booksAfterUpdate;
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((response) => response.json())
+  .then((data) => console.log(data));
