@@ -272,3 +272,4 @@ longBooksWitMovie;
 const advebtureBooks = books2.filter((book) =>
   book.genres.includes("adventure")
 );
+advebtureBooks;
