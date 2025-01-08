@@ -277,6 +277,7 @@ advebtureBooks;
 const pagesAllBooks = books2.reduce((acc, book) => acc + book.pages, 0);
 pagesAllBooks;
 
-const x1 = [3, 7, 1, 9, 6];
-const sorted = x1.sort((a, b) => a - b);
+const arr = [3, 7, 1, 9, 6];
+const sorted = arr.sort((a, b) => a - b);
 sorted;
+console.log(arr);
