@@ -294,3 +294,5 @@ const newBook = {
 };
 const booksAfterAdd = [...books2, newBook];
 booksAfterAdd;
+
+// 2) Delete book object from the data array
