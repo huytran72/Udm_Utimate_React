@@ -306,3 +306,4 @@ const booksAfterUpdate = booksAfterDelete.map((book) => {
   }
   return book;
 });
+booksAfterUpdate;
