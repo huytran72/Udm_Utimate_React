@@ -298,3 +298,5 @@ booksAfterAdd;
 // 2) Delete book object from the data array
 const booksAfterDelete = booksAfterAdd.filter((book) => book.id !== 6);
 booksAfterDelete;
+
+// 3) Update book object in the data array
