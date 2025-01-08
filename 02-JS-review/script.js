@@ -260,3 +260,4 @@ const essentialData = books2.map((book) => {
 essentialData;
 
 const longBooks = books2.filter((book) => book.pages > 500);
+longBooks;
