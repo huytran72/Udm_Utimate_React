@@ -286,4 +286,9 @@ const sortedByPages = books2.sort((a, b) => a.pages - b.pages);
 sortedByPages;
 
 // 1) Add book object to the data array
-const newBook = {};
+const newBook = {
+  id: 6,
+  title: "Harry Potter and the Chamber of Secrets",
+  publicationDate: "1937-09-21",
+  author: "J. K. Rowling",
+};
