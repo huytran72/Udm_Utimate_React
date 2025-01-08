@@ -300,4 +300,9 @@ const booksAfterDelete = booksAfterAdd.filter((book) => book.id !== 6);
 booksAfterDelete;
 
 // 3) Update book object in the data array
-const booksAfterUpdate = booksAfterAdd.map((book) =>
+const booksAfterUpdate = booksAfterDelete.map((book) => {
+  if (book.id === 5) {
+    return { ...book, title: "A Game of Thrones: The Iron Throne" };
+  }
+  return book;
+}
