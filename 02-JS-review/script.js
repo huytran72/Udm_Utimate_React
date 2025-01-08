@@ -284,3 +284,6 @@ console.log(arr);
 
 const sortedByPages = books2.sort((a, b) => a.pages - b.pages);
 sortedByPages;
+
+// 1) Add book object to the data array
+const newBook = {};
