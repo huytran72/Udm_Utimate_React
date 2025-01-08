@@ -268,3 +268,7 @@ const longBooksWitMovie = books2
   .filter((book) => book.pages > 500)
   .filter((book) => book.hasMovieAdaptation);
 longBooksWitMovie;
+
+const advebtureBooks = books2.filter((book) =>
+  book.genres.includes("adventure")
+);
