@@ -269,7 +269,7 @@ const longBooksWitMovie = books2
   .filter((book) => book.hasMovieAdaptation);
 longBooksWitMovie;
 
-const advebtureBooks = books2.filter((book) =>
-  book.genres.includes("adventure")
-);
+const advebtureBooks = books2
+  .filter((book) => book.genres.includes("adventure"))
+  .map((book) => book.title);
 advebtureBooks;
