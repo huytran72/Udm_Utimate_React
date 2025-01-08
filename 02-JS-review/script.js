@@ -296,4 +296,5 @@ const booksAfterAdd = [...books2, newBook];
 booksAfterAdd;
 
 // 2) Delete book object from the data array
-const booksAfterDelete = books2.filter((book) => book.id !== 2);
+const booksAfterDelete = booksAfterAdd.filter((book) => book.id !== 6);
+booksAfterDelete;
