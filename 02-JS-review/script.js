@@ -258,3 +258,5 @@ const essentialData = books2.map((book) => {
   return { title, author, genres, pages };
 });
 essentialData;
+
+const longBooks = books2.filter((book) => book.pages > 500);
