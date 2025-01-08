@@ -292,3 +292,5 @@ const newBook = {
   publicationDate: "1937-09-21",
   author: "J. K. Rowling",
 };
+const booksAfterAdd = [...books2, newBook];
+booksAfterAdd;
