@@ -319,3 +319,5 @@ async function getTodos() {
   console.log(data);
 }
 getTodos();
+
+console.log("kenny");
