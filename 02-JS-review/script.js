@@ -320,6 +320,7 @@ async function getTodos() {
 
   return data;
 }
-getTodos();
+const todos = getTodos();
+console.log(todos);
 
 console.log("kenny");
