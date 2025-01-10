@@ -10,6 +10,10 @@ function App() {
   );
 }
 
+function Pizza() {
+  return <h2>Pizza</h2>;
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
