@@ -57,6 +57,12 @@ function App() {
   );
 }
 
+function Headers() {}
+
+function Menu() {}
+
+function Footer() {}
+
 function Pizza() {
   return (
     <div>
