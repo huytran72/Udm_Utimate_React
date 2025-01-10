@@ -2,7 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 function App() {
-  return <h1>Hello React!!!</h1>;
+  return (
+    <div>
+      <h1>Hello React!!!</h1>
+      <Pizza />
+    </div>
+  );
 }
 
 function Pizza() {
