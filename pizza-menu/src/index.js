@@ -51,8 +51,7 @@ function App() {
     <div>
       <Headers />
       <Pizza />
-      <Pizza />
-      <Pizza />
+      <Footer />
     </div>
   );
 }
@@ -63,7 +62,9 @@ function Headers() {
 
 function Menu() {}
 
-function Footer() {}
+function Footer() {
+  return React.createElement("footer", null, "© 2025 Fast React Pizza Co.");
+}
 
 function Pizza() {
   return (
