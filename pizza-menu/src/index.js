@@ -63,7 +63,9 @@ function Headers() {
 function Menu() {}
 
 function Footer() {
-  return React.createElement("footer", null, "© 2025 Fast React Pizza Co.");
+  return (
+    <footer>{new Date().toLocaleDateString()}. We're currently open</footer>
+  );
 }
 
 function Pizza() {
