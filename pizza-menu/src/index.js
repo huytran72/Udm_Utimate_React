@@ -50,7 +50,7 @@ function App() {
   return (
     <div>
       <Headers />
-      <Pizza />
+      <Menu />
       <Footer />
     </div>
   );
