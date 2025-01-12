@@ -60,7 +60,9 @@ function Headers() {
   return <h1>Fast React Pizza Co.</h1>;
 }
 
-function Menu() {}
+function Menu() {
+  return <h2>Our Menu</h2>;
+}
 
 function Footer() {
   return (
