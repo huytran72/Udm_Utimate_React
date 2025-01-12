@@ -61,7 +61,12 @@ function Headers() {
 }
 
 function Menu() {
-  return <h2>Our Menu</h2>;
+  return (
+    <div>
+      <h2>Our Menu</h2>
+      <Pizza />
+    </div>
+  );
 }
 
 function Footer() {
