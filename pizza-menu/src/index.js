@@ -73,6 +73,8 @@ function Footer() {
   const hour = new Date().getHours();
   const openHour = 12;
   const closeHour = 23;
+  const isOpen = hour >= openHour && hour < closeHour;
+  console.log("isOpen", isOpen);
 
   if (hour >= openHour && hour < closeHour) {
     console.log("We're currently open");
