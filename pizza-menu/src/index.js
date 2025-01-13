@@ -92,7 +92,9 @@ function Footer() {
     console.log("We're currently closed");
   }
   return (
-    <footer>{new Date().toLocaleDateString()}. We're currently open</footer>
+    <footer className="footer">
+      {new Date().toLocaleDateString()}. We're currently open
+    </footer>
   );
 }
 
