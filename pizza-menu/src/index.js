@@ -71,6 +71,7 @@ function Menu() {
 
 function Footer() {
   const hour = new Date().getHours();
+  console.log(hour);
   return (
     <footer>{new Date().toLocaleDateString()}. We're currently open</footer>
   );
