@@ -5,3 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
