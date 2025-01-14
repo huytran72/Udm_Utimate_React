@@ -66,7 +66,7 @@ function Header() {
     textTransform: "uppercase",
   };
   return (
-    <h1 style={style} className="header">
+    <h1 style={style} className="header footer">
       Fast React Pizza Co.
     </h1>
   );
