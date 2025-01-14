@@ -52,6 +52,8 @@ function App() {
     <div className="App">
       <Header />
       <Menu />
+      <Menu />
+      <Menu />
       <Footer />
     </div>
   );
