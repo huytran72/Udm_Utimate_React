@@ -95,7 +95,7 @@ function Pizza(props) {
   console.log(props);
 
   return (
-    <div>
+    <div className="pizza">
       <img src={props.photoName} alt={props.name} />
       <h3>{props.name}</h3>
       <p>{props.ingredients}</p>
