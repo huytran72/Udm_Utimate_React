@@ -84,6 +84,16 @@ function Menu() {
   );
 }
 
+function Pizza(props) {
+  return (
+    <div>
+      <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
+      <h3>Pizza Spinaci</h3>
+      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+    </div>
+  );
+}
+
 function Footer() {
   const hour = new Date().getHours();
   const openHour = 12;
@@ -100,16 +110,6 @@ function Footer() {
     <footer className="footer">
       {new Date().toLocaleDateString()}. We're currently open
     </footer>
-  );
-}
-
-function Pizza() {
-  return (
-    <div>
-      <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
-      <h3>Pizza Spinaci</h3>
-      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
-    </div>
   );
 }
 
