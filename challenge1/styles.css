@@ -10,3 +10,7 @@ body {
   font-family: "IBM Plex Mono", sans-serif;
   background-color: #f7f7f7;
 }
+
+h1 {
+  margin-bottom: 12px;
+}
