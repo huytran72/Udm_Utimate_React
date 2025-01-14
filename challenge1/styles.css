@@ -20,3 +20,8 @@ h1 {
   margin: 40px;
   border: 4px solid #222;
 }
+
+.card::after {
+  content: "";
+  display: block;
+}
