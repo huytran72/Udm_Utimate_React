@@ -76,7 +76,7 @@ function Menu() {
       <h2>Our Menu</h2>
       <Pizza
         name="Pizza Spinaci"
-        ingredient="Tomato, mozarella, spinach, and ricotta cheese"
+        ingredients="Tomato, mozarella, spinach, and ricotta cheese"
         photoName="pizzas/spinaci.jpg"
         price="12"
       />
@@ -85,11 +85,13 @@ function Menu() {
 }
 
 function Pizza(props) {
+  console.log(props);
+
   return (
     <div>
-      <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
-      <h3>Pizza Spinaci</h3>
-      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+      <img src={props.photoName} alt={props.name} />
+      <h3>{props.name}</h3>
+      <p>{props.ingredients}</p>
     </div>
   );
 }
