@@ -6,9 +6,11 @@ const rootElement = createRoot(document.getElementById("root"));
 const root = createRoot(rootElement);
 
 function App() {
-    return (
-        
-    )
+  return (
+    <div className="card">
+      <Avartar />
+    </div>
+  );
 }
 
 root.render(
