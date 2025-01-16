@@ -8,8 +8,9 @@ function App() {
       <Avartar />
       <div className="data" 
            <Intro />    
-              
+            {/* Should contain one skill component */}
             <SkillList />
+        </div>
     </div>
   );
 }
