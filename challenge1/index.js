@@ -15,6 +15,16 @@ function App() {
   );
 }
 
+function Avartar() {
+
+}
+
+function Intro() {}
+
+function SkillList() {}
+
+function Skill() {}
+
 const rootElement = createRoot(document.getElementById("root"));
 const root = createRoot(rootElement);
 
