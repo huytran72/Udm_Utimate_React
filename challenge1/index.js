@@ -28,7 +28,15 @@ function Intro() {
     );
 }
 
-function SkillList() {}
+function SkillList() {
+    return (
+        <ul>
+            <li>React</li>
+            <li>Vue</li>
+            <li>Angular</li>
+        </ul>
+    );
+}
 
 function Skill() {}
 
