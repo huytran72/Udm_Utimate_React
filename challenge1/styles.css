@@ -25,3 +25,8 @@ h1 {
   content: "";
   display: block;
 }
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
