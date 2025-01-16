@@ -30,3 +30,11 @@ h1 {
   padding: 32px;
   padding-top: 24px;
 }
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  gap: 8px;
+}
