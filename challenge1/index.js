@@ -38,7 +38,9 @@ function SkillList() {
     );
 }
 
-function Skill() {}
+function Skill() {
+    return <li>React</li>;
+}
 
 const rootElement = createRoot(document.getElementById("root"));
 const root = createRoot(rootElement);
