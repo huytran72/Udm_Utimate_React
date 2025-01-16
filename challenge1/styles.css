@@ -38,3 +38,10 @@ h1 {
   margin-top: 16px;
   gap: 8px;
 }
+
+.skill {
+  padding: 8px 16px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+}
