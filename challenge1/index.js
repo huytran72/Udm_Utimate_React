@@ -16,7 +16,7 @@ function App() {
 }
 
 function Avartar() {
-
+    return <img src="https://randomuser.me/api/port" alt="avatar" />;
 }
 
 function Intro() {}
