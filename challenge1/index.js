@@ -23,7 +23,7 @@ function Intro() {
     return (
         <div>
             <h2>John Doe</h2>
-            <p>Frontend Developer</p>
+            <p>Full-stack web developer and teacher</p>
         </div>
     );
 }
