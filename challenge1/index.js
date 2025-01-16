@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="card">
       <Avartar />
+      <div className="data" 
+           <Intro />    
+              
+            <SkillList />
     </div>
   );
 }
