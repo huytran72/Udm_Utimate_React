@@ -19,7 +19,14 @@ function Avartar() {
     return <img src="https://randomuser.me/api/port" alt="avatar" />;
 }
 
-function Intro() {}
+function Intro() {
+    return (
+        <div>
+            <h2>John Doe</h2>
+            <p>Frontend Developer</p>
+        </div>
+    );
+}
 
 function SkillList() {}
 
