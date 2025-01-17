@@ -30,11 +30,11 @@ function Intro() {
 
 function SkillList() {
     return (
-        <ul>
-            <li>React</li>
-            <li>Vue</li>
-            <li>Angular</li>
-        </ul>
+        <div>   
+            <Skill />
+            <Skill />
+            <Skill />
+        </div>
     );
 }
 
