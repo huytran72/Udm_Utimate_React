@@ -31,8 +31,8 @@ function Intro() {
 function SkillList() {
     return (
         <div>   
-            <Skill skill='React' emoji=''/>
-            <Skill skill='HTML+CSS' emoji=''/>
+            <Skill skill='React' emoji='' color='#123456'/>
+            <Skill skill='HTML+CSS' emoji='' color='oranged'/>
             <Skill skill='Svelte' emoji=''/>
             <Skill skill='JavaScript' emoji=''/>
         </div>
