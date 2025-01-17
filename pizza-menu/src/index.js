@@ -78,6 +78,7 @@ function Menu() {
       <ul className="pizzas">
         {pizzaData.map((pizza) => (
            <li className="pizza">
+            <img src={pizza.photoName} alt={pizza.name} />
         ))}
       </ul>
 
