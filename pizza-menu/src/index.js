@@ -137,8 +137,8 @@ function Footer() {
       {isOpen && (
         <div className="oder">
           <p>We're open until {closeHour}:00. Come visit us or order online.</p>
+          <button className="btn">Order now</button>
         </div>
-        <button className="btn">Order now</button>
       )}
     </footer>
   );
