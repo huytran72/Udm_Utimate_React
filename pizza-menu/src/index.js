@@ -132,16 +132,7 @@ function Footer() {
   // if (hour >= openHour && hour < closeHour) alert("We're currently open");
   // else alert("We're currently closed");
 
-  if (hour >= openHour && hour < closeHour) {
-    console.log("We're currently open");
-  } else {
-    console.log("We're currently closed");
-  }
-  return (
-    <footer className="footer">
-      {new Date().toLocaleDateString()}. We're currently open
-    </footer>
-  );
+  return <footer className="footer">{isOpen && <p>Open</p>}</footer>;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
