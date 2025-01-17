@@ -129,6 +129,8 @@ function Footer() {
   const isOpen = hour >= openHour && hour < closeHour;
   console.log("isOpen", isOpen);
 
+  // if (hour >= openHour && hour < closeHour) {
+
   if (hour >= openHour && hour < closeHour) {
     console.log("We're currently open");
   } else {
