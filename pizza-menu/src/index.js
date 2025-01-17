@@ -77,7 +77,7 @@ function Menu() {
 
       <div>
         {pizzaData.map((pizza) => (
-          <Pizza name={pizza.name} photoName={pizza.photoName} />
+          <Pizza pizzaObj={pizza} />
         ))}
       </div>
 
@@ -103,7 +103,7 @@ function Pizza(props) {
 
   return (
     <div className="pizza">
-      <img src={props.photoName} alt={props.name} />
+      <img src={props.pizzaObj.photoName} alt={props.name} />
       <div>
         <h3>{props.name}</h3>
         <p>{props.ingredients}</p>
