@@ -33,7 +33,7 @@ function SkillList() {
         <div>   
             <Skill skill='React' emoji=''/>
             <Skill skill='HTML+CSS' emoji=''/>
-            <Skill />
+            <Skill skill='Svelte' emoji=''/>
         </div>
     );
 }
