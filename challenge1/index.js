@@ -32,7 +32,7 @@ function SkillList() {
     return (
         <div>   
             <Skill skill='React' emoji=''/>
-            <Skill />
+            <Skill skill='HTML+CSS' emoji=''/>
             <Skill />
         </div>
     );
@@ -40,7 +40,8 @@ function SkillList() {
 
 function Skill(props) {
     return <div className="skill">
-        <span>{props.}</span>
+        <span>{props.skill}</span>
+        <span>{props.emoji}</span>
     </div>;
 }
 
