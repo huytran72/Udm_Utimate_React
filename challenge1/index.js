@@ -31,7 +31,7 @@ function Intro() {
 function SkillList() {
     return (
         <div>   
-            <Skill />
+            <Skill skill='React' emoji=''/>
             <Skill />
             <Skill />
         </div>
