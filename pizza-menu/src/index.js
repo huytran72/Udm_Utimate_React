@@ -74,6 +74,9 @@ function Menu() {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
+
+      <div></div>
+
       <Pizza
         name="Pizza Spinaci"
         ingredients="Tomato, mozarella, spinach, and ricotta cheese"
