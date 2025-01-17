@@ -103,11 +103,11 @@ function Pizza(props) {
 
   return (
     <div className="pizza">
-      <img src={props.pizzaObj.photoName} alt={props.name} />
+      <img src={props.pizzaObj.photoName} alt={props.pizzaObj.name} />
       <div>
-        <h3>{props.name}</h3>
-        <p>{props.ingredients}</p>
-        <span>{props.price + 3}</span>
+        <h3>{props.pizzaObj.name}</h3>
+        <p>{props.pizzaObj.ingredients}</p>
+        <span>{props.pizzaObj.price + 3}</span>
         <button>Add to cart </button>
       </div>
     </div>
