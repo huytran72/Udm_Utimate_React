@@ -84,6 +84,7 @@ function Menu() {
               <p>{pizza.ingredients}</p>
               <span>{pizza.price + 3}</span>
               <button>Add to cart </button>
+            </div>
         ))}
       </ul>
 
