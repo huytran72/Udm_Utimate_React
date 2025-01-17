@@ -34,6 +34,7 @@ function SkillList() {
             <Skill skill='React' emoji=''/>
             <Skill skill='HTML+CSS' emoji=''/>
             <Skill skill='Svelte' emoji=''/>
+            <Skill skill='JavaScript' emoji=''/>
         </div>
     );
 }
