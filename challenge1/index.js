@@ -38,8 +38,10 @@ function SkillList() {
     );
 }
 
-function Skill() {
-    return <div className="skill">React</div>;
+function Skill(props) {
+    return <div className="skill">
+        <span>{props.}</span>
+    </div>;
 }
 
 const rootElement = createRoot(document.getElementById("root"));
