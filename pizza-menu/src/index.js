@@ -77,7 +77,7 @@ function Menu() {
 
       <ul className="pizzas">
         {pizzaData.map((pizza) => (
-           <li className="pizza">
+          <li className="pizza">
             <img src={pizza.photoName} alt={pizza.name} />
             <div>
               <h3>{pizza.name}</h3>
@@ -85,6 +85,7 @@ function Menu() {
               <span>{pizza.price + 3}</span>
               <button>Add to cart </button>
             </div>
+          </li>
         ))}
       </ul>
 
