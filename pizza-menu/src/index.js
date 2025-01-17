@@ -102,7 +102,7 @@ function Pizza(props) {
   console.log(props);
 
   return (
-    <div className="pizza">
+    <li className="pizza">
       <img src={props.pizzaObj.photoName} alt={props.pizzaObj.name} />
       <div>
         <h3>{props.pizzaObj.name}</h3>
@@ -110,7 +110,7 @@ function Pizza(props) {
         <span>{props.pizzaObj.price + 3}</span>
         <button>Add to cart </button>
       </div>
-    </div>
+    </li>
   );
 }
 
