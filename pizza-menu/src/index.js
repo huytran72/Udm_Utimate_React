@@ -80,15 +80,7 @@ function Menu() {
       {pizzas && (
         <ul className="pizzas">
           {pizzaData.map((pizza) => (
-            <li className="pizza">
-              <img src={pizza.photoName} alt={pizza.name} />
-              <div>
-                <h3>{pizza.name}</h3>
-                <p>{pizza.ingredients}</p>
-                <span>{pizza.price + 3}</span>
-                <button>Add to cart </button>
-              </div>
-            </li>
+            <Pizza pizzaObj={pizza} key={pizza.name} />
           ))}
         </ul>
       )}
