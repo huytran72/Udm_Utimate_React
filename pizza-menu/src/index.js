@@ -142,6 +142,7 @@ function Footer() {
         <p>
           We're currently closed. We open again at {openHour}:00. You can still
           order online.
+        </p>
       )}
     </footer>
   );
