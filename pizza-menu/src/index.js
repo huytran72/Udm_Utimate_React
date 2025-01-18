@@ -77,19 +77,21 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
 
-      <ul className="pizzas">
-        {pizzaData.map((pizza) => (
-          <li className="pizza">
-            <img src={pizza.photoName} alt={pizza.name} />
-            <div>
-              <h3>{pizza.name}</h3>
-              <p>{pizza.ingredients}</p>
-              <span>{pizza.price + 3}</span>
-              <button>Add to cart </button>
-            </div>
-          </li>
-        ))}
-      </ul>
+      {pizzas && (
+        <ul className="pizzas">
+          {pizzaData.map((pizza) => (
+            <li className="pizza">
+              <img src={pizza.photoName} alt={pizza.name} />
+              <div>
+                <h3>{pizza.name}</h3>
+                <p>{pizza.ingredients}</p>
+                <span>{pizza.price + 3}</span>
+                <button>Add to cart </button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
 
       {/* <Pizza
         name="Pizza Spinaci"
