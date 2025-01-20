@@ -156,6 +156,7 @@ function Order() {
   return (
     <div className="order">
       <p>We're open until {closeHour}. Come visit us or order online.</p>
+      <button>Order now</button>
     </div>
   );
 }
