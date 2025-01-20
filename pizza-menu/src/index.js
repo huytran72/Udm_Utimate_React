@@ -153,7 +153,11 @@ function Footer() {
 }
 
 function Order() {
-  return <div className="order"></div>;
+  return (
+    <div className="order">
+      <p>We're open until {closeHour}. Come visit us or order online.</p>
+    </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
