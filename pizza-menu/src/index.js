@@ -80,7 +80,7 @@ function Menu() {
       <h2>Our Menu</h2>
 
       {numPizzas > 0 ? (
-        <div>
+        <>
           <p>
             Authentic Italian cuisine made with the freshest ingredients. Order
             now
@@ -91,7 +91,7 @@ function Menu() {
               <Pizza pizzaObj={pizza} key={pizza.name} />
             ))}
           </ul>
-        </div>
+        </>
       ) : (
         <p>We're still working on our menu. Please come back later</p>
       )}
