@@ -152,7 +152,9 @@ function Footer() {
   );
 }
 
-function Order() {}
+function Order() {
+  return <div className="order"></div>;
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
