@@ -8,6 +8,9 @@ export default function App() {
       </div>
 
       <p className="message">Hello</p>
+
+      <div className="button">
+        <button>Next</button>
     </div>
   );
 }
