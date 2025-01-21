@@ -1,3 +1,7 @@
 export default function App() {
-  return <div>Hello React</div>;
+  return (
+    <div className="steps">
+      <div className="number"></div>
+    </div>
+  );
 }
