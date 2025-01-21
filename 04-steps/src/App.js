@@ -1,4 +1,8 @@
-const messages = ["Learn React", "Apply for jobs", "Invest your new income"];
+const messages = [
+  "Learn React ⚛️",
+  "Apply for jobs 💼",
+  "Invest your new income 🤑",
+];
 
 export default function App() {
   const step = 1;
@@ -16,11 +20,11 @@ export default function App() {
       </p>
 
       <div className="button">
-        <button style={{ backgroundColor: "#79550f2", color: "#fff" }}>
-          Next
-        </button>
-        <button style={{ backgroundColor: "#79550f2", color: "#fff" }}>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
           Previous
+        </button>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
+          Next
         </button>
       </div>
     </div>
