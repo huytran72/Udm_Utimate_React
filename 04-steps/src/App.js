@@ -19,7 +19,7 @@ export default function App() {
         Step {step}: {messages[step - 1]}
       </p>
 
-      <div className="button">
+      <div className="buttons">
         <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
           Previous
         </button>
