@@ -42,6 +42,7 @@ function Skill({skill, color, emoji, level}) {}) {
         <span>
             {level === "beginner" && <span>🟢</span>}
             {level === "intermediate" && <span>🟡</span>}
+            {level === "advanced" && <span>🔴</span>}
         </span>
     </div>;
 }
