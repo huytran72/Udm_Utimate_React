@@ -11,7 +11,9 @@ export default function App() {
         <div>3</div>
       </div>
 
-      <p className="message">Hello</p>
+      <p className="message">
+        Step {step}: {messages[step - 1]}
+      </p>
 
       <div className="button">
         <button style={{ backgroundColor: "#79550f2", color: "#fff" }}>
