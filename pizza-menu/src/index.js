@@ -125,11 +125,11 @@ function Pizza(pizzaObj) {
         <h3> {pizzaObj.name}</h3>
         <p>{pizzaObj.ingredients}</p>
 
-        {pizzaObj.soldOut ? (
+        {/* {pizzaObj.soldOut ? (
           <span>Sold out</span>
         ) : (
           <span>{pizzaObj.price}</span>
-        )}
+        )} */}
 
         <span>{pizzaObj.soldOut ? "Sold out" : pizzaObj.price}</span>
         <button>Add to cart </button>
