@@ -80,7 +80,7 @@ function Menu() {
       <h2>Our Menu</h2>
 
       {numPizzas > 0 ? (
-        <>
+        <React.Fragment>
           <p>
             Authentic Italian cuisine made with the freshest ingredients. Order
             now
@@ -91,7 +91,7 @@ function Menu() {
               <Pizza pizzaObj={pizza} key={pizza.name} />
             ))}
           </ul>
-        </>
+        </React.Fragment>
       ) : (
         <p>We're still working on our menu. Please come back later</p>
       )}
