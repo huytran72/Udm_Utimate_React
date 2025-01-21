@@ -1,6 +1,8 @@
 const messages = ["Learn React", "Apply for jobs", "Invest your new income"];
 
 export default function App() {
+  const step = 1;
+
   return (
     <div className="steps">
       <div className="numbers">
