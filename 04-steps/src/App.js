@@ -11,6 +11,8 @@ export default function App() {
 
       <div className="button">
         <button>Next</button>
+        <button>Back</button>
+      </div>
     </div>
   );
 }
