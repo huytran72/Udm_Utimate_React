@@ -13,7 +13,9 @@ export default function App() {
         <button style={{ backgroundColor: "#79550f2", color: "#fff" }}>
           Next
         </button>
-        <button>Previous</button>
+        <button style={{ backgroundColor: "#79550f2", color: "#fff" }}>
+          Previous
+        </button>
       </div>
     </div>
   );
