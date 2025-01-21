@@ -1,3 +1,5 @@
+const messages = [];
+
 export default function App() {
   return (
     <div className="steps">
