@@ -31,15 +31,17 @@ function Intro() {
 function SkillList() {
     return (
         <div className="skill-list">   
-            {Skills.map(skill=><Skill skill={skill.skill} color={skill.color} emoji={skill.emoji} />)}
+            {Skills.map(skill=><Skill skill={skill.skill} color={skill.color} emoji={skill.emoji} level={skill.level} />)}
         </div>
     );
 }
 
-function Skill(props) {
+function Skill({skill, color, emoji, level}) {}) {
     return <div className="skill" style={{backgroundColor: props.color}}>
-        <span>{props.skill}</span>
-        <span>{props.emoji}</span>
+        <span>{skill}</span>
+        <span>{emoji}</span>
+        <span>{color}</span>
+        <span>{level}</span>
     </div>;
 }
 
