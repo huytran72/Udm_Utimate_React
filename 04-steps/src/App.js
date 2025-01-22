@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="steps">
       <div className="numbers">
-        <div className="active">1</div>
+        <div className={`${step >= 1 ? "active" : ""}`}>1</div>
         <div>2</div>
         <div>3</div>
       </div>
