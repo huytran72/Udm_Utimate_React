@@ -22,13 +22,13 @@ export default function App() {
       <div className="buttons">
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
-          onClick={"() => alert('Previous step')"}
+          onClick={() => alert("Previous step")}
         >
           Previous
         </button>
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
-          onClick={"() => alert('Next step')"}
+          onClick={() => alert("Next step")}
         >
           Next
         </button>
