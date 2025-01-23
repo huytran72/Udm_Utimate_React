@@ -33,6 +33,6 @@ export default function App() {
           Next
         </button>
       </div>
-    </div>
+    </div>;
   );
 }
