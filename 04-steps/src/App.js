@@ -11,6 +11,8 @@ export default function App() {
     alert("Previous");
   };
 
+  const handleNext = () => {};
+
   return (
     <div className="steps">
       <div className="numbers">
