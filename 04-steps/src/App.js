@@ -9,9 +9,9 @@ const messages = [
 export default function App() {
   const [step, setStep] = useState(1);
 
-  const handlePrevious = () => {
-    alert("Previous");
-  };
+  function handlePrevious() {
+    setStep(step - 1);
+  }
 
   function handleNext() {
     setStep(step + 1);
