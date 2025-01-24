@@ -7,6 +7,8 @@ const messages = [
 export default function App() {
   const step = 1;
 
+  const handlePrevious = () => {};
+
   return (
     <div className="steps">
       <div className="numbers">
