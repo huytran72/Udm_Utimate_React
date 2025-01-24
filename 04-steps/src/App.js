@@ -7,7 +7,7 @@ const messages = [
 ];
 
 export default function App() {
-  useState(() => {});
+  const arr = useState(1);
   const handlePrevious = () => {
     alert("Previous");
   };
