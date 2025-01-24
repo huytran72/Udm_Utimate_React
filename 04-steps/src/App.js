@@ -5,8 +5,6 @@ const messages = [
 ];
 
 export default function App() {
-  const step = 1;
-
   const handlePrevious = () => {
     alert("Previous");
   };
