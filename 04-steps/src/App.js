@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const messages = [
   "Learn React ⚛️",
   "Apply for jobs 💼",
@@ -5,6 +7,7 @@ const messages = [
 ];
 
 export default function App() {
+  useState(() => {});
   const handlePrevious = () => {
     alert("Previous");
   };
