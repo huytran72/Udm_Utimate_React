@@ -14,7 +14,7 @@ export default function App() {
   };
 
   const handleNext = () => {
-    alert("Next");
+    setStep(step + 1);
   };
 
   return (
