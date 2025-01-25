@@ -8,7 +8,7 @@ const messages = [
 
 export default function App() {
   const [step, setStep] = useState(1);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   // const [test, setTest] = useState({ name: "Kenny Tran" });
 
   function handlePrevious() {
@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div>
-      { isOpen && (
+      {isOpen && (
         <div className="steps">
           <div className="numbers">
             <div className={step >= 1 ? "active" : ""}>1</div>
@@ -51,7 +51,7 @@ export default function App() {
             </button>
           </div>
         </div>
-      }
+      )}
     </div>
   );
 }
