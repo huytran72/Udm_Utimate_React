@@ -23,6 +23,9 @@ export default function App() {
 
   return (
     <div>
+      <button className="close" onClick={}>&time;</button>
+
+
       {isOpen && (
         <div className="steps">
           <div className="numbers">
