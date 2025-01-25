@@ -33,7 +33,7 @@ export default function App() {
 
           <p className="message">
             Step {step}: {messages[step - 1]}
-            {test.name}
+            {/* {test.name} */}
           </p>
 
           <div className="buttons">
