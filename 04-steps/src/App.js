@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div>
-      {
+      { isOpen && (
         <div className="steps">
           <div className="numbers">
             <div className={step >= 1 ? "active" : ""}>1</div>
