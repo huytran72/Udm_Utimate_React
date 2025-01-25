@@ -16,6 +16,7 @@ export default function App() {
 
   function handleNext() {
     if (step < 3) setStep(step + 1);
+    test.name = "Kenny Tran";
   }
 
   return (
