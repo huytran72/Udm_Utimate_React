@@ -16,9 +16,9 @@ export default function App() {
   }
 
   function handleNext() {
-    if (step < 3) setStep(step + 1);
-    // test.name = "Fred";
-    setTest({ name: "Fred" });
+    if (step < 3) {
+      setStep(step + 1);
+    }
   }
 
   return (
