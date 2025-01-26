@@ -6,7 +6,14 @@ const messages = [
   "Invest your new income 🤑",
 ];
 
-export default function App() {}
+export default function App() {
+  return (
+    <div className="App">
+      <h1>Steps</h1>
+      <Steps />
+    </div>
+  );
+}
 
 function Steps() {
     const [step, setStep] = useState(1);
