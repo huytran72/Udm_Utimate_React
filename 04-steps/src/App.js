@@ -6,8 +6,9 @@ const messages = [
   "Invest your new income 🤑",
 ];
 
-export default function App() {
-  function Steps() {
+export default function App() {}
+
+function Steps() {
     const [step, setStep] = useState(1);
     const [isOpen, setIsOpen] = useState(false);
 
