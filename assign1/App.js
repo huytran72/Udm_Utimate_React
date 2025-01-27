@@ -25,7 +25,7 @@ function Counter() {
       </div>
 
       <p>
-        <span>Today is </span>
+        <span>{count === 0 ? "Today is" : ""}</span>
         <span>{date.toDateString()} </span>
       </p>
     </div>
