@@ -13,7 +13,5 @@ export default function App() {
 function Counter() {
   const [count, setCount] = useState(0);
 
-  return (
-    
-  )
+  return <div></div>;
 }
