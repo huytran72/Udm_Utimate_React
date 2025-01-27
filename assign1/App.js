@@ -23,6 +23,8 @@ function Counter() {
         <span>Count: {count}</span>
         <button onClick={() => setCount((c) => c + 1)}>-</button>
       </div>
+
+      <p>{date.toDateString()}</p>
     </div>
   );
 }
