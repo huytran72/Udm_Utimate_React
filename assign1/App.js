@@ -24,7 +24,9 @@ function Counter() {
         <button onClick={() => setCount((c) => c + 1)}>-</button>
       </div>
 
-      <p>{date.toDateString()}</p>
+      <p>
+        <span>{date.toDateString()} </span>
+      </p>
     </div>
   );
 }
