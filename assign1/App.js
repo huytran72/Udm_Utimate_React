@@ -15,7 +15,9 @@ function Counter() {
 
   return (
     <div>
-      <div></div>
+      <div>
+        <span>Count: {count}</span>
+      </div>
     </div>
   );
 }
