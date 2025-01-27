@@ -16,6 +16,7 @@ function Counter() {
   return (
     <div>
       <div>
+        <button onClick={() => setCount(count - 1)}>-</button>
         <span>Count: {count}</span>
       </div>
     </div>
