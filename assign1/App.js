@@ -21,6 +21,7 @@ function Counter() {
     <div>
       <div>
         <button onClick={() => setStep((s) => s - 1)}>-</button>
+        <span>Step: {step}</span>
       </div>
 
       <div>
