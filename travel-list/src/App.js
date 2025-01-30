@@ -12,6 +12,8 @@ function Form() {
   );
 }
 
-function PackingList() {}
+function PackingList() {
+  return <div className="packing-list">LIST</div>;
+}
 
 function statusbar() {}
