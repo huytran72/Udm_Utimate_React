@@ -13,7 +13,7 @@ function Form() {
 }
 
 function PackingList() {
-  return <div className="packing-list">LIST</div>;
+  return <div className="list">LIST</div>;
 }
 
 function statusbar() {}
