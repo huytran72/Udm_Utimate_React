@@ -17,5 +17,9 @@ function PackingList() {
 }
 
 function statusbar() {
-  return <footer></footer>;
+  return (
+    <footer>
+      You have X items in your list, and you already packed Y items.
+    </footer>
+  );
 }
