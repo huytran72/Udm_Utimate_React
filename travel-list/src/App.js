@@ -16,4 +16,6 @@ function PackingList() {
   return <div className="list">LIST</div>;
 }
 
-function statusbar() {}
+function statusbar() {
+  return <footer></footer>;
+}
