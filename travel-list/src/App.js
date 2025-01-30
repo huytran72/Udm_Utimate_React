@@ -5,3 +5,5 @@ function Logo() {}
 function Form() {}
 
 function PackingList() {}
+
+function statusbar() {}
