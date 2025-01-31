@@ -41,7 +41,11 @@ function PackingList() {
 function Item({ item }) {
   return (
     <li>
-      <span>{item.description}</span>
+      <span>
+        {""}
+        {item.quantity}
+        {item.description}
+      </span>
     </li>
   );
 }
