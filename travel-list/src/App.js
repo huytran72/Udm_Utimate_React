@@ -27,13 +27,17 @@ function Form() {
 }
 
 function PackingList() {
-  return <ul className="list">
-    {initialItems.map{item =><Item item={item} /> }}
-  </ul>
+  return (
+    <ul className="list">
+      {initialItems.map((item) => (
+        <Item item={item} />
+      ))}
+    </ul>
+  );
 }
 
 function Item(item) {
-  return <li>{item.description}</li>
+  return <li>{item.description}</li>;
 }
 
 function Stats() {
