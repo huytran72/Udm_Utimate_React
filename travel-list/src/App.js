@@ -36,7 +36,7 @@ function PackingList() {
   );
 }
 
-function Item(item) {
+function Item({ item }) {
   return <li>{item.description}</li>;
 }
 
