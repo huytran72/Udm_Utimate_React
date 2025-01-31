@@ -3,6 +3,7 @@ export default function App() {
     <div className="app">
       <Logo />
       <Form />
+      <PackingList />
     </div>
   );
 }
