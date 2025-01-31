@@ -26,6 +26,8 @@ function Form() {
   );
 }
 
+function Item(item) {}
+
 function PackingList() {
   return <ul className="list">
     {initialItems.map{item =><Item item={item} /> }}
