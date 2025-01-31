@@ -45,6 +45,8 @@ function Item({ item }) {
         {item.quantity}
         {item.description}
       </span>
+
+      <button>❌</button>
     </li>
   );
 }
