@@ -1,4 +1,7 @@
-const initialItems = [{ id: 1, description: "Passport", packed: false }];
+const initialItems = [
+  { id: 1, description: "Passport", packed: false },
+  { id: 2, description: "Phone charger", packed: false },
+];
 
 export default function App() {
   return (
