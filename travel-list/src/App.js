@@ -24,7 +24,7 @@ function PackingList() {
   return <div className="list">LIST</div>;
 }
 
-function statusbar() {
+function Stats() {
   return (
     <footer>
       You have X items in your list, and you already packed Y items.
