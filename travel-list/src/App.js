@@ -1,4 +1,10 @@
-export default function App() {}
+export default function App() {
+  return (
+    <div className="app">
+      <Logo />
+    </div>
+  );
+}
 
 function Logo() {
   return <h1>🏝️ Travelling 💼</h1>;
