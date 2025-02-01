@@ -30,6 +30,7 @@ function Form() {
         <option value={4}>4</option>
       </select>
       <input type="text" placeholder="Item..." />
+      <button>Add</button>
     </form>
   );
 }
