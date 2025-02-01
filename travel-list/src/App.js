@@ -39,7 +39,7 @@ function Form() {
           </option>
         ))}
       </select>
-      <input type="text" placeholder="Item..." />
+      <input type="text" placeholder="Item..." value={description} />
       <button onClick={handleSubmit}>Add</button>
     </form>
   );
