@@ -25,6 +25,7 @@ function Form() {
       <h3>What do you need for your trip?</h3>
       <select>
         <option value={1}>1</option>
+        <option value={2}>2</option>
       </select>
     </form>
   );
