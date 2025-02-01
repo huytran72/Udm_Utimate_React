@@ -20,7 +20,9 @@ function Logo() {
 }
 
 function Form() {
-  function handleSubmit(event) {}
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
