@@ -37,6 +37,7 @@ function Form() {
     console.log(newItem);
 
     setDescription("");
+    setQuantity(1);
   }
 
   return (
