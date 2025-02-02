@@ -30,6 +30,7 @@ function Form() {
     console.log(e);
 
     const newItem = { description, quantity, packed: false, id: Date.now() };
+    console.log(newItem);
   }
 
   return (
