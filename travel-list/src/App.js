@@ -29,7 +29,7 @@ function Form() {
     e.preventDefault();
     console.log(e);
 
-    const newItem = {};
+    const newItem = { description, quantity, packed: false };
   }
 
   return (
