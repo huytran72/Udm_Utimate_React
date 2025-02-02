@@ -28,6 +28,8 @@ function Form() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(e);
+
+    const newItem = {};
   }
 
   return (
