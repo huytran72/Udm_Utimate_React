@@ -43,7 +43,10 @@ function Form() {
         type="text"
         placeholder="Item..."
         value={description}
-        onChange={(e) => setDescription(e.target.value)}
+        onChange={(e) => {
+          console.log(e.target.value);
+          setDescription(e.target.value);
+        }}
       />
       <button onClick={handleSubmit}>Add</button>
     </form>
