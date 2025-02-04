@@ -14,6 +14,10 @@ function Counter() {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(1);
 
+  function handleReset() {
+    setCount(0);
+  }
+
   const date = new Date();
   date.setDate(date.getDate() + count);
 
