@@ -11,7 +11,7 @@ export default function App() {
     <div className="app">
       <Logo />
       <Form />
-      <PackingList />
+      <PackingList items={items} />
       <Stats />
     </div>
   );
