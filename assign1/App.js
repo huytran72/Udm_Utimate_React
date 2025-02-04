@@ -25,7 +25,7 @@ function Counter() {
           min="0"
           max="10"
           value={step}
-          onChange={(e) => setStep(e.target.value)}
+          onChange={(e) => setStep(Number(e.target.value))}
         />
 
         <button onClick={() => setStep((c) => c - 1)}>-</button>
