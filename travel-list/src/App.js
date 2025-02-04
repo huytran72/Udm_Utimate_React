@@ -30,9 +30,7 @@ function Form() {
     e.preventDefault();
     console.log(e);
 
-    if (!description.trim()) {
-      return;
-    }
+    if (!description) return;
 
     const newItem = { description, quantity, packed: false, id: Date.now() };
     console.log(newItem);
