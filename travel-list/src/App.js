@@ -69,7 +69,7 @@ function Form() {
   );
 }
 
-function PackingList() {
+function PackingList(items) {
   return (
     <div className="list">
       <ul>
