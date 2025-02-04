@@ -53,6 +53,10 @@ function Counter() {
         </span>
         <span>{date.toDateString()} </span>
       </p>
+
+      <div>
+        <button onClick={() => setCount(0)}>Reset</button>
+      </div>
     </div>
   );
 }
