@@ -60,7 +60,7 @@ function Counter() {
       </p>
 
       <div>
-        <button onClick={() => setCount(0)}>Reset</button>
+        <button onClick={handleReset}>Reset</button>
       </div>
     </div>
   );
