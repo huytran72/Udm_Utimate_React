@@ -16,6 +16,7 @@ function Counter() {
 
   function handleReset() {
     setCount(0);
+    setStep(1);
   }
 
   const date = new Date();
