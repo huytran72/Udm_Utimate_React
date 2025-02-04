@@ -20,6 +20,12 @@ function Counter() {
   return (
     <div>
       <div>
+        <input
+          type="range"
+          value={step}
+          onChange={(e) => setStep(e.target.value)}
+        />
+
         <button onClick={() => setStep((c) => c - 1)}>-</button>
         <span>Step: {step}</span>
         <button onClick={() => setStep((c) => c + 1)}>-</button>
