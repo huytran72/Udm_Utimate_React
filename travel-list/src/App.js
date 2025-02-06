@@ -13,7 +13,7 @@ export default function App() {
     setItems((items) => [...items, item]);
   }
 
-  function handleDeleteItem() {}
+  function handleDeleteItem(id) {}
 
   return (
     <div className="app">
