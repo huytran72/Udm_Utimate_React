@@ -94,7 +94,7 @@ function Item({ item, onDeleteItem }) {
         {item.description}
       </span>
 
-      <button onClick={onDeleteItem}>❌</button>
+      <button onClick={() => onDeleteItem(item.id)}>❌</button>
     </li>
   );
 }
