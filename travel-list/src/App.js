@@ -86,7 +86,7 @@ function PackingList({ items, onDeleteItems }) {
   );
 }
 
-function Item({ item }) {
+function Item({ item, onDeleteItem }) {
   return (
     <li>
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
