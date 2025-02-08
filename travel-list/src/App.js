@@ -18,7 +18,7 @@ export default function App() {
   }
 
   function handleToggleItem(id) {
-    setItems();
+    setItems((items) => items.map((item) => {}));
   }
 
   return (
