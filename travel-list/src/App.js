@@ -103,7 +103,7 @@ function PackingList({ items, onDeleteItem, onToggleItem }) {
   );
 }
 
-function Item({ item, onDeleteItem }) {
+function Item({ item, onDeleteItem, onToggleItem }) {
   return (
     <li>
       <input type="checkbox" value={item.packed} onChange={() => {}} />
