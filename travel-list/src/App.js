@@ -32,7 +32,7 @@ export default function App() {
       <PackingList
         items={items}
         onDeleteItem={handleDeleteItem}
-        onToggleItem={onToggleItem}
+        onToggleItem={handleToggleItem}
       />
       <Stats />
     </div>
