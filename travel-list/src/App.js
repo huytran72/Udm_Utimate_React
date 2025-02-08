@@ -124,6 +124,8 @@ function Item({ item, onDeleteItem, onToggleItem }) {
 }
 
 function Stats() {
+  const numItems = items.length;
+
   return (
     <footer className="stats">
       You have X items in your list, and you already packed Y items.
