@@ -74,12 +74,12 @@ function Form({ onAddItems }) {
   );
 }
 
-function PackingList({ items, onAddItems }) {
+function PackingList({ items, onDeleteItems }) {
   return (
     <div className="list">
       <ul>
         {items.map((item) => (
-          <Item item={item} key={item.id} />
+          <Item item={item} onDeleteItem={onDeleteItems} key={item.id} />
         ))}
       </ul>
     </div>
