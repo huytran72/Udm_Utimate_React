@@ -17,7 +17,9 @@ export default function App() {
     setItems((items) => items.filter((item) => item.id !== id));
   }
 
-  function handleToggleItem(id) {}
+  function handleToggleItem(id) {
+    setItems();
+  }
 
   return (
     <div className="app">
