@@ -123,7 +123,7 @@ function Item({ item, onDeleteItem, onToggleItem }) {
   );
 }
 
-function Stats() {
+function Stats({ items }) {
   const numItems = items.length;
 
   return (
