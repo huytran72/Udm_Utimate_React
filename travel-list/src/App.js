@@ -128,7 +128,7 @@ function Stats({ items }) {
 
   return (
     <footer className="stats">
-      You have X items in your list, and you already packed Y items.
+      You have {numItems} items in your list, and you already packed X (X%)
     </footer>
   );
 }
