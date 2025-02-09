@@ -125,6 +125,7 @@ function Item({ item, onDeleteItem, onToggleItem }) {
 
 function Stats({ items }) {
   const numItems = items.length;
+  const numPacked = items.filter((item) => item.packed).length;
 
   return (
     <footer className="stats">
