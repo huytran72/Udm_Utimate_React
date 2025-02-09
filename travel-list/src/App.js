@@ -130,7 +130,8 @@ function Stats({ items }) {
   return (
     <footer className="stats">
       <em>
-        You have {numItems} items in your list, and you already packed X (X%)
+        You have {numItems} items in your list, and you already packed{" "}
+        {numPacked} (X%)
       </em>
     </footer>
   );
