@@ -101,6 +101,12 @@ function PackingList({ items, onDeleteItem, onToggleItem }) {
           />
         ))}
       </ul>
+
+      <div className="actions">
+        <select>
+          <option></option>
+        </select>
+      </div>
     </div>
   );
 }
