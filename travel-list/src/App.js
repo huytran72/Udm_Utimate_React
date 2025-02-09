@@ -91,6 +91,8 @@ function Form({ onAddItems }) {
 function PackingList({ items, onDeleteItem, onToggleItem }) {
   const [sortBy, setSortBy] = useState("input");
 
+  let sortedItems;
+
   return (
     <div className="list">
       <ul>
