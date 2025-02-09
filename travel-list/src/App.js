@@ -125,7 +125,11 @@ function Item({ item, onDeleteItem, onToggleItem }) {
 
 function Stats({ items }) {
   if (!items.length)
-    return <footer className="stats">No items in your list</footer>;
+    return (
+      <p className="footer">
+        <em>Start adding some items to your packing list 🚀</em>
+      </p>
+    );
 
   const numItems = items.length;
   const numPacked = items.filter((item) => item.packed).length;
