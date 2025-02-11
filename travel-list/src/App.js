@@ -2,11 +2,9 @@ import React, { useState } from "react";
 
 export default function App() {
   const [items, setItems] = useState([]);
-  const [numItems, setNumItems] = useState(0);
 
   function handleAddItems(item) {
     setItems((items) => [...items, item]);
-    setNumItems((num) => num + 1);
   }
 
   function handleDeleteItem(id) {
