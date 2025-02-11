@@ -26,7 +26,7 @@ export default function App() {
       "Are you sure you want to clear the list?"
     );
 
-    setItems([]);
+    if (confirmed) setItems([]);
     setNumItems(0);
   }
 
