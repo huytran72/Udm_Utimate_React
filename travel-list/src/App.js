@@ -88,6 +88,11 @@ function PackingList({ items, onDeleteItem, onToggleItem }) {
 
   if (sortBy === "input") sortedItems = items;
 
+  if (sortBy === "description")
+    sortedItems = items
+      .slice()
+      .sort((a, b) => a.description.localeCompare(b.description));
+
   return (
     <div className="list">
       <ul>
