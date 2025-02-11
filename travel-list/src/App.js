@@ -21,6 +21,10 @@ export default function App() {
     );
   }
 
+  function handleClearList() {
+    setItems([]);
+    setNumItems(0);
+
   return (
     <div className="app">
       <Logo />
