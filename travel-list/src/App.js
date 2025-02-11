@@ -77,9 +77,7 @@ function Form({ onAddItems }) {
         type="text"
         placeholder="Item..."
         value={description}
-        onChange={(e) => {
-          setDescription(e.target.value);
-        }}
+        onChange={(e) => setDescription(e.target.value)}
       />
       <button onClick={handleSubmit}>Add</button>
     </form>
