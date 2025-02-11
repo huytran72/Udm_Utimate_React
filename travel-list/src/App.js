@@ -25,7 +25,6 @@ export default function App() {
     );
 
     if (confirmed) setItems([]);
-    setNumItems(0);
   }
 
   return (
