@@ -78,7 +78,6 @@ function Form({ onAddItems }) {
         placeholder="Item..."
         value={description}
         onChange={(e) => {
-          console.log(e.target.value);
           setDescription(e.target.value);
         }}
       />
