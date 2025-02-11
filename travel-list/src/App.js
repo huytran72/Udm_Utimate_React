@@ -45,7 +45,6 @@ function Form({ onAddItems }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(e);
 
     if (!description) return;
 
