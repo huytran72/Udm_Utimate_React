@@ -1,4 +1,4 @@
-function Form({ onAddItems }) {
+export default function Form({ onAddItems }) {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState(1);
 
