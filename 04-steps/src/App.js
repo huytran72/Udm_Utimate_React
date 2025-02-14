@@ -59,7 +59,7 @@ function Steps() {
             </button>
             <button
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
-              onClick={() => alert("Next step")}
+              onClick={handleNext}
             >
               Next
             </button>
