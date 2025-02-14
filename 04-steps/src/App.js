@@ -68,7 +68,7 @@ function Steps() {
   );
 }
 
-function Button() {
+function Button({ textColor, bgColor, onClick, text }) {
   return (
     <button
       style={{ backgroundColor: "#7950f2", color: "#fff" }}
