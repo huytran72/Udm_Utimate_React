@@ -71,10 +71,10 @@ function Steps() {
 function Button({ textColor, bgColor, onClick, text }) {
   return (
     <button
-      style={{ backgroundColor: "#7950f2", color: "#fff" }}
-      onClick={handleNext}
+      style={{ backgroundColor: bgColor, color: textColor }}
+      onClick={onClick}
     >
-      Click me
+      {text}
     </button>
   );
 }
