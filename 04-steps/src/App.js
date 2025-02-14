@@ -53,7 +53,7 @@ function Steps() {
           <div className="buttons">
             <button
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
-              onClick={() => alert("Previous step")}
+              onClick={handlePrevious}
             >
               Previous
             </button>
