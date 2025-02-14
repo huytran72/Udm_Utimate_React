@@ -68,4 +68,6 @@ function Steps() {
   );
 }
 
-function Button() {}
+function Button() {
+  return <button>Click me</button>;
+}
