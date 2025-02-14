@@ -49,7 +49,7 @@ function Steps() {
 
           <div className="buttons">
             <Button
-              bgColor="#f7950f2"
+              bgColor="#7950f2"
               textColor="#fff"
               onClick={handlePrevious}
               text="Previous"
