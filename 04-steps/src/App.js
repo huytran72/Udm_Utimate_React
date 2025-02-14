@@ -48,7 +48,12 @@ function Steps() {
           </p>
 
           <div className="buttons">
-            <Button bgColor: "#f7950f2" textColor: "#fff" onClick={handlePrevious} text="Previous" />
+            <Button
+              bgColor="#f7950f2"
+              textColor="#fff"
+              onClick={handlePrevious}
+              text="Previous"
+            />
 
             <button
               style={{ backgroundColor: "#7950f2", color: "#fff" }}
