@@ -32,9 +32,7 @@ function Steps() {
 
   return (
     <div>
-      <button className="close" onClick={() => setIsOpen(!isOpen)}>
-        &time;
-      </button>
+      <button className="close" onClick={() => setIsOpen(!isOpen)}></button>
 
       {isOpen && (
         <div className="steps">
