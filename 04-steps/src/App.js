@@ -56,8 +56,10 @@ function Steps() {
             />
 
             <Button
-              style={{ backgroundColor: "#7950f2", color: "#fff" }}
+              bgColor="#7950f2"
+              textColor="#fff"
               onClick={handleNext}
+              text="Previous"
             >
               Next
             </Button>
