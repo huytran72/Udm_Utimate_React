@@ -60,6 +60,7 @@ function Steps() {
               textColor="#fff"
               onClick={handleNext}
               text="Next"
+              emoji="👉"
             />
             Next
           </div>
