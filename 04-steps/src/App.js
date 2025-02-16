@@ -59,7 +59,7 @@ function Steps() {
               bgColor="#7950f2"
               textColor="#fff"
               onClick={handleNext}
-              text="Previous"
+              text="Next"
             >
               Next
             </Button>
