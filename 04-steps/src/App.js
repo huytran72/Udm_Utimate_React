@@ -76,8 +76,7 @@ function Button({ textColor, bgColor, onClick, children }) {
       style={{ backgroundColor: bgColor, color: textColor }}
       onClick={onClick}
     >
-      <span>{emoji}</span>
-      {text}
+      {children}
     </button>
   );
 }
