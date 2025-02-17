@@ -55,13 +55,7 @@ function Steps() {
               text="Previous"
               emoji="👈"
             />
-            <Button
-              bgColor="#7950f2"
-              textColor="#fff"
-              onClick={handleNext}
-              text="Next"
-              emoji="👉"
-            />
+            <Button bgColor="#7950f2" textColor="#fff" onClick={handleNext} />
             Next
           </div>
         </div>
