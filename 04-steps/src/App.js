@@ -70,7 +70,7 @@ function Steps() {
   );
 }
 
-function Button({ textColor, bgColor, onClick, text, emoji }) {
+function Button({ textColor, bgColor, onClick, text, emoji, side }) {
   return (
     <button
       style={{ backgroundColor: bgColor, color: textColor }}
