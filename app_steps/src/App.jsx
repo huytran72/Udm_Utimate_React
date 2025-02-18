@@ -12,6 +12,7 @@ export default function App() {
       <Steps />
       <StepMessage step={1}>
         <p>Pass in content</p>
+      </StepMessage>
     </div>
   );
 }
