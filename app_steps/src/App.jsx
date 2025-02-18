@@ -94,6 +94,10 @@ function StepMessage({ step, children }) {
       {children}
     </div>
   );
+  StepMessage.propTypes = {
+    step: PropTypes.number.isRequired,
+    children: PropTypes.node.isRequired,
+  };
 }
 
 function Button({ textColor, bgColor, onClick, children }) {
