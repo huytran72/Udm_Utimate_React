@@ -49,7 +49,7 @@ function Steps() {
 
           <StepMessage step={step}>
             {messages[step - 1]}
-            <div className="button">
+            <div className="buttons">
               <Button
                 bgColor="#e7e7e7"
                 textColor="#333"
