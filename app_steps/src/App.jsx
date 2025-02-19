@@ -47,14 +47,16 @@ function Steps() {
             <div className={step >= 3 ? "active" : ""}>3</div>
           </div>
 
-          <StepMessage step={step}>{messages[step - 1]}</StepMessage>
-          <Button
-            bgColor="#e7e7e7"
-            textColor="#333"
-            onClick={() => alert(`Learn how to ${messages[step - 1]}`)}
-          >
-            Learn how
-          </Button>
+          <StepMessage step={step}>
+            {messages[step - 1]}
+            <Button
+              bgColor="#e7e7e7"
+              textColor="#333"
+              onClick={() => alert(`Learn how to ${messages[step - 1]}`)}
+            >
+              Learn how
+            </Button>
+          </StepMessage>
 
           <div className="buttons">
             <Button
