@@ -74,7 +74,9 @@ function TabContent({ item }) {
     setLikes(likes + 1);
   }
 
-  function handleTripleInc() {}
+  function handleTripleInc() {
+    setLikes(likes + 3);
+  }
 
   function handleUndo() {
     setShowDetails(false);
