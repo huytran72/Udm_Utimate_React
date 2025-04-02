@@ -72,7 +72,9 @@ function TabContent({ item }) {
     setLikes(likes + 1);
   }
 
-  function handleUndo() {}
+  function handleUndo() {
+    setShowDetails(false);
+  }
 
   return (
     <div className="tab-content">
