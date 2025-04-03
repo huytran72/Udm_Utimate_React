@@ -90,7 +90,9 @@ function TabContent({ item }) {
     console.log(likes);
   }
 
-  function handeUndoLater() {}
+  function handeUndoLater() {
+    setTimeout(handleUndo, 2000);
+  }
 
   return (
     <div className="tab-content">
