@@ -78,6 +78,8 @@ function TabContent({ item }) {
     // setLikes(likes + 1);
     // setLikes(likes + 1);
     // setLikes(likes + 1);
+
+    setLikes((l) => l + 1);
   }
 
   function handleUndo() {
